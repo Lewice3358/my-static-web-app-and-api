@@ -4,5 +4,7 @@
   "azureFunctions.projectLanguage": "JavaScript",
   "azureFunctions.projectRuntime": "~3",
   "debug.internalConsoleOptions": "neverOpen",
-  "azureFunctions.preDeployTask": "npm prune"
+  "azureFunctions.preDeployTask": "npm prune",
+  "appService.defaultWebAppToDeploy": "/subscriptions/ad9c39e2-fdd3-4038-8c8c-c02c23f136c0/resourceGroups/rg-cb-armtamplate-poc/subscriptions/ad9c39e2-fdd3-4038-8c8c-c02c23f136c0/resourceGroups/rg-cb-armtamplate-poc/providers/Microsoft.Web/sites/app-cb-api/subscriptions/ad9c39e2-fdd3-4038-8c8c-c02c23f136c0/resourceGroups/rg-cb-armtamplate-poc/providers/Microsoft.Web/sites/app-cb-api/slots/subscriptions/ad9c39e2-fdd3-4038-8c8c-c02c23f136c0/resourceGroups/rg-cb-armtamplate-poc/providers/Microsoft.Web/sites/app-cb-api/slots/cb-deployment-slot-static-web-site",
+  "appService.deploySubpath": "."
 }
